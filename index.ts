@@ -646,6 +646,16 @@ const AI_MODELS: Record<
     llm: ["OpenAI Chat (Langchain)"],
     order: -1,
   },
+  "test": {
+    encoding: "test",
+    prices: {
+      prompt: 0.000003,
+      completion: 0,
+    },
+    maxTokens: 12000,
+    llm: ["OpenRouter Chat (Langchain)"],
+    order: -1,
+  }
 };
 
 export default AI_MODELS;
