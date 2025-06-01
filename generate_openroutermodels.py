@@ -59,7 +59,7 @@ def transform_models(data):
                 "completion": completion_price,
             },
             "maxTokens": max_tokens,
-            "llm": ["OpenAI Chat (Langchain)"],
+            "llm": ["OpenRouter Chat (Langchain)"],
             "order": -1,
         }
 

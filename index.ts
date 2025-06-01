@@ -646,16 +646,6 @@ const AI_MODELS: Record<
     llm: ["OpenAI Chat (Langchain)"],
     order: -1,
   },
-  "test": {
-    encoding: "test",
-    prices: {
-      prompt: 0.000003,
-      completion: 0,
-    },
-    maxTokens: 12000,
-    llm: ["OpenRouter Chat (Langchain)"],
-    order: -1,
-  },
   "amazon/nova-lite-v1": {
     encoding: "cl100k_base",
     prices: {
@@ -663,7 +653,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 5120,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "amazon/nova-micro-v1": {
@@ -673,7 +663,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 5120,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "amazon/nova-pro-v1": {
@@ -683,7 +673,7 @@ const AI_MODELS: Record<
       completion: 0.000003,
     },
     maxTokens: 5120,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2": {
@@ -693,7 +683,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2.0": {
@@ -703,7 +693,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2.0:beta": {
@@ -713,7 +703,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2.1": {
@@ -723,7 +713,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2.1:beta": {
@@ -733,7 +723,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-2:beta": {
@@ -743,7 +733,7 @@ const AI_MODELS: Record<
       completion: 0.000024,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-haiku": {
@@ -753,7 +743,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-haiku:beta": {
@@ -763,7 +753,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-opus": {
@@ -773,7 +763,7 @@ const AI_MODELS: Record<
       completion: 0.000075,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-opus:beta": {
@@ -783,7 +773,7 @@ const AI_MODELS: Record<
       completion: 0.000075,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-sonnet": {
@@ -793,7 +783,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3-sonnet:beta": {
@@ -803,7 +793,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-haiku": {
@@ -813,7 +803,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-haiku-20241022": {
@@ -823,7 +813,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-haiku-20241022:beta": {
@@ -833,7 +823,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-haiku:beta": {
@@ -843,7 +833,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-sonnet": {
@@ -853,7 +843,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-sonnet-20240620": {
@@ -863,7 +853,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-sonnet-20240620:beta": {
@@ -873,7 +863,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.5-sonnet:beta": {
@@ -883,7 +873,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.7-sonnet": {
@@ -893,7 +883,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.7-sonnet:beta": {
@@ -903,7 +893,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-3.7-sonnet:thinking": {
@@ -913,7 +903,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-opus-4": {
@@ -923,7 +913,7 @@ const AI_MODELS: Record<
       completion: 0.000075,
     },
     maxTokens: 32000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "anthropic/claude-sonnet-4": {
@@ -933,7 +923,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-chat": {
@@ -943,7 +933,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-chat-v3-0324": {
@@ -953,7 +943,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-chat-v3-0324:free": {
@@ -963,7 +953,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-chat:free": {
@@ -973,7 +963,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-prover-v2": {
@@ -983,7 +973,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-prover-v2:free": {
@@ -993,7 +983,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1": {
@@ -1003,7 +993,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-0528": {
@@ -1013,7 +1003,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-0528-qwen3-8b": {
@@ -1023,7 +1013,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-0528-qwen3-8b:free": {
@@ -1033,7 +1023,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-0528:free": {
@@ -1043,7 +1033,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-llama-70b": {
@@ -1053,7 +1043,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-llama-70b:free": {
@@ -1063,7 +1053,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-llama-8b": {
@@ -1073,7 +1063,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-1.5b": {
@@ -1083,7 +1073,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-14b": {
@@ -1093,7 +1083,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-14b:free": {
@@ -1103,7 +1093,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-32b": {
@@ -1113,7 +1103,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-32b:free": {
@@ -1123,7 +1113,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 16000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-distill-qwen-7b": {
@@ -1133,7 +1123,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1-zero:free": {
@@ -1143,7 +1133,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-r1:free": {
@@ -1153,7 +1143,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "deepseek/deepseek-v3-base:free": {
@@ -1163,7 +1153,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.0-flash-001": {
@@ -1173,7 +1163,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.0-flash-exp:free": {
@@ -1183,7 +1173,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.0-flash-lite-001": {
@@ -1193,7 +1183,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-flash-preview": {
@@ -1203,7 +1193,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-flash-preview-05-20": {
@@ -1213,7 +1203,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-flash-preview-05-20:thinking": {
@@ -1223,7 +1213,7 @@ const AI_MODELS: Record<
       completion: 0.000003,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-flash-preview:thinking": {
@@ -1233,7 +1223,7 @@ const AI_MODELS: Record<
       completion: 0.000003,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-pro-exp-03-25": {
@@ -1243,7 +1233,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-2.5-pro-preview": {
@@ -1253,7 +1243,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 65535,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-flash-1.5": {
@@ -1263,7 +1253,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-flash-1.5-8b": {
@@ -1273,7 +1263,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemini-pro-1.5": {
@@ -1283,7 +1273,7 @@ const AI_MODELS: Record<
       completion: 0.000005,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-2-27b-it": {
@@ -1293,7 +1283,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-2-9b-it": {
@@ -1303,7 +1293,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-2-9b-it:free": {
@@ -1313,7 +1303,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-2b-it": {
@@ -1323,7 +1313,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-12b-it": {
@@ -1333,7 +1323,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-12b-it:free": {
@@ -1343,7 +1333,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-1b-it:free": {
@@ -1353,7 +1343,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-27b-it": {
@@ -1363,7 +1353,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-27b-it:free": {
@@ -1373,7 +1363,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-4b-it": {
@@ -1383,7 +1373,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3-4b-it:free": {
@@ -1393,7 +1383,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "google/gemma-3n-e4b-it:free": {
@@ -1403,7 +1393,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-2-70b-chat": {
@@ -1413,7 +1403,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3-70b-instruct": {
@@ -1423,7 +1413,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3-8b-instruct": {
@@ -1433,7 +1423,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-405b": {
@@ -1443,7 +1433,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-405b-instruct": {
@@ -1453,7 +1443,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-405b:free": {
@@ -1463,7 +1453,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-70b-instruct": {
@@ -1473,7 +1463,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-8b-instruct": {
@@ -1483,7 +1473,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.1-8b-instruct:free": {
@@ -1493,7 +1483,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-11b-vision-instruct": {
@@ -1503,7 +1493,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-11b-vision-instruct:free": {
@@ -1513,7 +1503,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-1b-instruct": {
@@ -1523,7 +1513,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-1b-instruct:free": {
@@ -1533,7 +1523,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-3b-instruct": {
@@ -1543,7 +1533,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-3b-instruct:free": {
@@ -1553,7 +1543,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 20000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.2-90b-vision-instruct": {
@@ -1563,7 +1553,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.3-70b-instruct": {
@@ -1573,7 +1563,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.3-70b-instruct:free": {
@@ -1583,7 +1573,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-3.3-8b-instruct:free": {
@@ -1593,7 +1583,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 4028,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-4-maverick": {
@@ -1603,7 +1593,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-4-maverick:free": {
@@ -1613,7 +1603,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-4-scout": {
@@ -1623,7 +1613,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 1048576,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-4-scout:free": {
@@ -1633,7 +1623,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 200000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-guard-2-8b": {
@@ -1643,7 +1633,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-guard-3-8b": {
@@ -1653,7 +1643,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "meta-llama/llama-guard-4-12b": {
@@ -1663,7 +1653,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 163840,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/codestral-2501": {
@@ -1673,7 +1663,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 262144,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/devstral-small": {
@@ -1683,7 +1673,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/devstral-small:free": {
@@ -1693,7 +1683,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/ministral-3b": {
@@ -1703,7 +1693,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/ministral-8b": {
@@ -1713,7 +1703,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-7b-instruct": {
@@ -1723,7 +1713,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-7b-instruct-v0.1": {
@@ -1733,7 +1723,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 2824,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-7b-instruct-v0.2": {
@@ -1743,7 +1733,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-7b-instruct-v0.3": {
@@ -1753,7 +1743,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-7b-instruct:free": {
@@ -1763,7 +1753,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-large": {
@@ -1773,7 +1763,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-large-2407": {
@@ -1783,7 +1773,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-large-2411": {
@@ -1793,7 +1783,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-medium": {
@@ -1803,7 +1793,7 @@ const AI_MODELS: Record<
       completion: 0.000008,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-medium-3": {
@@ -1813,7 +1803,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-nemo": {
@@ -1823,7 +1813,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-nemo:free": {
@@ -1833,7 +1823,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-saba": {
@@ -1843,7 +1833,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-small": {
@@ -1853,7 +1843,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-small-24b-instruct-2501": {
@@ -1863,7 +1853,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-small-24b-instruct-2501:free": {
@@ -1873,7 +1863,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-small-3.1-24b-instruct": {
@@ -1883,7 +1873,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-small-3.1-24b-instruct:free": {
@@ -1893,7 +1883,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 96000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mistral-tiny": {
@@ -1903,7 +1893,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mixtral-8x22b-instruct": {
@@ -1913,7 +1903,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 65536,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/mixtral-8x7b-instruct": {
@@ -1923,7 +1913,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/pixtral-12b": {
@@ -1933,7 +1923,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "mistralai/pixtral-large-2411": {
@@ -1943,7 +1933,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/chatgpt-4o-latest": {
@@ -1953,7 +1943,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/codex-mini": {
@@ -1963,7 +1953,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo": {
@@ -1973,7 +1963,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo-0125": {
@@ -1983,7 +1973,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo-0613": {
@@ -1993,7 +1983,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo-1106": {
@@ -2003,7 +1993,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo-16k": {
@@ -2013,7 +2003,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-3.5-turbo-instruct": {
@@ -2023,7 +2013,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4": {
@@ -2033,7 +2023,7 @@ const AI_MODELS: Record<
       completion: 0.000060,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-0314": {
@@ -2043,7 +2033,7 @@ const AI_MODELS: Record<
       completion: 0.000060,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-1106-preview": {
@@ -2053,7 +2043,7 @@ const AI_MODELS: Record<
       completion: 0.000030,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-32k": {
@@ -2063,7 +2053,7 @@ const AI_MODELS: Record<
       completion: 0.00012,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-32k-0314": {
@@ -2073,7 +2063,7 @@ const AI_MODELS: Record<
       completion: 0.00012,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-turbo": {
@@ -2083,7 +2073,7 @@ const AI_MODELS: Record<
       completion: 0.000030,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4-turbo-preview": {
@@ -2093,7 +2083,7 @@ const AI_MODELS: Record<
       completion: 0.000030,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4.1": {
@@ -2103,7 +2093,7 @@ const AI_MODELS: Record<
       completion: 0.000008,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4.1-mini": {
@@ -2113,7 +2103,7 @@ const AI_MODELS: Record<
       completion: 0.000002,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4.1-nano": {
@@ -2123,7 +2113,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4.5-preview": {
@@ -2133,7 +2123,7 @@ const AI_MODELS: Record<
       completion: 0.00015,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o": {
@@ -2143,7 +2133,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-2024-05-13": {
@@ -2153,7 +2143,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-2024-08-06": {
@@ -2163,7 +2153,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-2024-11-20": {
@@ -2173,7 +2163,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-mini": {
@@ -2183,7 +2173,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-mini-2024-07-18": {
@@ -2193,7 +2183,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-mini-search-preview": {
@@ -2203,7 +2193,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o-search-preview": {
@@ -2213,7 +2203,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/gpt-4o:extended": {
@@ -2223,7 +2213,7 @@ const AI_MODELS: Record<
       completion: 0.000018,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1": {
@@ -2233,7 +2223,7 @@ const AI_MODELS: Record<
       completion: 0.000060,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1-mini": {
@@ -2243,7 +2233,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 65536,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1-mini-2024-09-12": {
@@ -2253,7 +2243,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 65536,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1-preview": {
@@ -2263,7 +2253,7 @@ const AI_MODELS: Record<
       completion: 0.000060,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1-preview-2024-09-12": {
@@ -2273,7 +2263,7 @@ const AI_MODELS: Record<
       completion: 0.000060,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o1-pro": {
@@ -2283,7 +2273,7 @@ const AI_MODELS: Record<
       completion: 0.0006,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o3": {
@@ -2293,7 +2283,7 @@ const AI_MODELS: Record<
       completion: 0.000040,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o3-mini": {
@@ -2303,7 +2293,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o3-mini-high": {
@@ -2313,7 +2303,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o4-mini": {
@@ -2323,7 +2313,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "openai/o4-mini-high": {
@@ -2333,7 +2323,7 @@ const AI_MODELS: Record<
       completion: 0.000004,
     },
     maxTokens: 100000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2-72b-instruct": {
@@ -2343,7 +2333,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 4096,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-72b-instruct": {
@@ -2353,7 +2343,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-72b-instruct:free": {
@@ -2363,7 +2353,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-7b-instruct": {
@@ -2373,7 +2363,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-7b-instruct:free": {
@@ -2383,7 +2373,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-coder-32b-instruct": {
@@ -2393,7 +2383,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 16384,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-coder-32b-instruct:free": {
@@ -2403,7 +2393,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-vl-7b-instruct": {
@@ -2413,7 +2403,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-2.5-vl-7b-instruct:free": {
@@ -2423,7 +2413,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-max": {
@@ -2433,7 +2423,7 @@ const AI_MODELS: Record<
       completion: 0.000006,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-plus": {
@@ -2443,7 +2433,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-turbo": {
@@ -2453,7 +2443,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-vl-max": {
@@ -2463,7 +2453,7 @@ const AI_MODELS: Record<
       completion: 0.000003,
     },
     maxTokens: 1500,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen-vl-plus": {
@@ -2473,7 +2463,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 1500,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen2.5-vl-32b-instruct": {
@@ -2483,7 +2473,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 128000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen2.5-vl-32b-instruct:free": {
@@ -2493,7 +2483,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen2.5-vl-3b-instruct:free": {
@@ -2503,7 +2493,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 64000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen2.5-vl-72b-instruct": {
@@ -2513,7 +2503,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 32000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen2.5-vl-72b-instruct:free": {
@@ -2523,7 +2513,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 2048,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-14b": {
@@ -2533,7 +2523,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-14b:free": {
@@ -2543,7 +2533,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-235b-a22b": {
@@ -2553,7 +2543,7 @@ const AI_MODELS: Record<
       completion: 0.000001,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-235b-a22b:free": {
@@ -2563,7 +2553,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-30b-a3b": {
@@ -2573,7 +2563,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-30b-a3b:free": {
@@ -2583,7 +2573,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-32b": {
@@ -2593,7 +2583,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-32b:free": {
@@ -2603,7 +2593,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-8b": {
@@ -2613,7 +2603,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 20000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwen3-8b:free": {
@@ -2623,7 +2613,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40960,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwq-32b": {
@@ -2633,7 +2623,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwq-32b-preview": {
@@ -2643,7 +2633,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "qwen/qwq-32b:free": {
@@ -2653,7 +2643,7 @@ const AI_MODELS: Record<
       completion: 0.0,
     },
     maxTokens: 40000,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-2-1212": {
@@ -2663,7 +2653,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-2-vision-1212": {
@@ -2673,7 +2663,7 @@ const AI_MODELS: Record<
       completion: 0.000010,
     },
     maxTokens: 32768,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-3-beta": {
@@ -2683,7 +2673,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-3-mini-beta": {
@@ -2693,7 +2683,7 @@ const AI_MODELS: Record<
       completion: 0.000000,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-beta": {
@@ -2703,7 +2693,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 131072,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   },
   "x-ai/grok-vision-beta": {
@@ -2713,7 +2703,7 @@ const AI_MODELS: Record<
       completion: 0.000015,
     },
     maxTokens: 8192,
-    llm: ["OpenAI Chat (Langchain)"],
+    llm: ["OpenRouter Chat (Langchain)"],
     order: -1,
   }
 };
